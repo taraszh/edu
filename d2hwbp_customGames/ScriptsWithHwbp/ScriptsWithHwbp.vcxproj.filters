@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Hook">
+      <UniqueIdentifier>{38d5b3c2-49bb-4bf1-813e-9227c518f659}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{3ff8a7d3-8611-499b-b30b-e24e921e8639}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MetaHook">
+      <UniqueIdentifier>{2f62af09-b46a-48f2-a6cc-fb4d900b4cf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX">
+      <UniqueIdentifier>{b901a7a3-fcce-4f90-b337-8904a9ae4b3f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractHook.h">
+      <Filter>Hook</Filter>
+    </ClInclude>
+    <ClInclude Include="HwbpHook.h">
+      <Filter>Hook</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>MetaHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Queue.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="functions.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="dx.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractHook.cpp">
+      <Filter>Hook</Filter>
+    </ClCompile>
+    <ClCompile Include="HwbpHook.cpp">
+      <Filter>Hook</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="dx.cpp">
+      <Filter>DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Text.txt" />
+  </ItemGroup>
+</Project>
