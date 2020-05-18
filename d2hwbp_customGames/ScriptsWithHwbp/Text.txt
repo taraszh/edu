@@ -1,4 +1,0 @@
-Copipast from https://habr.com/ru/post/446516/
-
-
-but works and dirextX hook simplified
